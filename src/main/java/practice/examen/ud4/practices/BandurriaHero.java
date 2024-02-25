@@ -23,6 +23,7 @@ public class BandurriaHero {
 
         for (int i = 0; i < nombreCasos; i++) {
             String liniaBandurria = in.nextLine();
+            System.out.println(puntuacio(liniaBandurria));
         }
     }
 }
